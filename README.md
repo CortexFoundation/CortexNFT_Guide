@@ -85,6 +85,7 @@ Then select the **File Explorers** icon
 <img src="./images/fileExplorer.jpg" alt="file explorer" width="400"/>
 
 Adding our smart contract file *Artwork.sol* and all the files it is inherited from can be troublesome. To simply this process, we have created a flatten version of *Artwork.sol* in this repository, named *Artwork_flat.sol*, add this file to Remix and select it.
+
 Select the **Solidity Compiler** icon then click **Compile Arwork_flat.sol**
 
 <img src="./images/solidityCompiler.jpg" alt="file explorer" width="400"/>
@@ -122,3 +123,4 @@ e.g. for previous metadata.json file in this guide, `https://ipfs.io/ipfs/QmbLJJ
 Again, like deploying the contract, click on **transact** to send the transaction.
 
 When the transaction is confirmed, you now have successfully created your first NFT on Cortex blockchain, you can find your CRC4 token on [Cerebro](https://cerebro.cortexlabs.ai/#/CRC4tokens) explorer.
+You can also view your NFT collections through our wallet APP for [iOS or android](https://www.cortexlabs.ai/wallet).
