@@ -77,33 +77,33 @@ contract Artwork is CRC4Full, Ownable {
 ## Deploy to the blockchain
 ##### Note: deploying smart contract through Remix require you to have [Cortex wallet extension](https://raw.githubusercontent.com/CortexFoundation/Cortex_Release/master/cortex-wallet/CortexWallet.zip) installed on Chrome browser, also make sure you have enough CTXC for paying the endorphin fees.
 Goto https://cerebro.cortexlabs.ai/remix, click on the **Solidity** environment
-![Remix home page](./images/remixHome.jpg =400x)
+![Remix home page](./images/remixHome.jpg)
 
 Then select the **File Explorers** icon
-![file explorer](./images/fileExplorer.jpg =400x)
+![file explorer](./images/fileExplorer.jpg)
 
 Adding our smart contract file *Artwork.sol* and all the files it is inherited from can be troublesome. To simply this process, we have created a flatten version of *Artwork.sol* in this repository, named *Artwork_flat.sol*, add this file to Remix and select it.
 Select the **Solidity Compiler** icon then click **Compile Arwork_flat.sol**
-![Solidity compiler](./images/solidityCompiler.jpg =400x)
+![Solidity compiler](./images/solidityCompiler.jpg)
 
 Select the **Deploy and run transactions** icon, make sure you have the right environment and contract selected
-![deployment panel](./images/deployIcon.jpg =400x)
+![deployment panel](./images/deployIcon.jpg)
 
 Extend the deployment box by clicking on the little downward arrow on the right
-![deployment box](./images/deployBox.jpg =400x)
+![deployment box](./images/deployBox.jpg)
 
 Type in the name and the symbol for your NFT token, for example, *My First NFT* (*MFN*). Click on the **transact** button to deploy the contract to the blockchain:
-![deployment](./images/deployment.jpg =400x)
+![deployment](./images/deployment.jpg)
 
 A window will pop up asking for confirmation, click confirm
-![confirm](./images/confirm.jpg =400x)
+![confirm](./images/confirm.jpg)
 
 ## Mint the artwork
 You will be able to see the deployed contract after successfully deploying it to the network. Click on the little arrow on the left to expend the content
-![deployed contract](./images/deployedContract.jpg =400x)
+![deployed contract](./images/deployedContract.jpg)
 
 Find the **addItem** function
-![add item function](./images/addItemIcon.jpg =400x)
+![add item function](./images/addItemIcon.jpg)
 
 put your **wallet address** as the owner. The format for tokenURI:
 ```
