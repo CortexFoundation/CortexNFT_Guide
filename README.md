@@ -101,8 +101,10 @@ A window will pop up asking for confirmation, click confirm
 ## Mint the artwork
 You will be able to see the deployed contract after successfully deploying it to the network. Click on the little arrow on the left to expend the content
 ![deployed contract](./images/deployedContract.jpg)
+
 Find the **addItem** function
 ![add item function](./images/addItemIcon.jpg)
+
 put your **wallet address** as the owner. The format for tokenURI:
 ```
 https://ipfs.io/ipfs/[metadata_hash]
