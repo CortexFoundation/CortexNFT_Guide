@@ -45,8 +45,8 @@ ipfs add metadata.json
 ```
 You will get the hash for this file (`QmbLJJHKFNmvwFq475iYCCAw8vvBwhRqSqLgEVztmpUDAr`).
 
-## Create NFT token contract
-Clone this repository, and create a new smart contract file (*Artwork.sol*) under the *contract* directory:
+## The NFT token contract
+The NFT smart contract file (*Artwork.sol*) is created for you under the *contract* directory:
 ```
 pragma solidity ^0.4.24;
 
@@ -82,9 +82,9 @@ Goto https://cerebro.cortexlabs.ai/remix, click on the **Solidity** environment
 
 Then select the **File Explorers** icon
 
-<img src="./images/fileExplorer.jpg" alt="file explorer" width="400"/>
+Adding our smart contract file *Artwork.sol* and all the files it is inherited from can be troublesome. To simply this process, we have created a flatten version of *Artwork.sol* in this repository, named *Artwork_flat.sol*, download or copy this file then add it to Remix.
 
-Adding our smart contract file *Artwork.sol* and all the files it is inherited from can be troublesome. To simply this process, we have created a flatten version of *Artwork.sol* in this repository, named *Artwork_flat.sol*, add this file to Remix and select it.
+<img src="./images/fileExplorer.jpg" alt="file explorer" width="400"/>
 
 Select the **Solidity Compiler** icon then click **Compile Arwork_flat.sol**
 
