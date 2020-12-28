@@ -46,7 +46,7 @@ ipfs add metadata.json
 You will get the hash for this file (`QmbLJJHKFNmvwFq475iYCCAw8vvBwhRqSqLgEVztmpUDAr`).
 
 ## The NFT token contract
-The NFT smart contract file (*Artwork.sol*) is created for you under the *contract* directory:
+The NFT smart contract file (*Artwork.sol*) is created for you under the **contracts** directory:
 ```
 pragma solidity ^0.4.24;
 
